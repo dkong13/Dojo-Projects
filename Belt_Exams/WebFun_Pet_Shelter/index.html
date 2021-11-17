@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="head-top">
+                <div class="title">
+                    <img src="heart-light.png" alt="heart" id="title-heart"><h1>Pet Shelter</h1>
+                </div>
+                <div class="nav-links">
+                    <span class="nav-opt">Find a Pet </span><span class="nav-opt">About </span><span class="nav-opt"><button id="donate-btn" onclick="hide(this)">Donate</button></span>
+                </div>
+            </div>
+            <div class="head-bottom">
+                <div class="find-opt">
+                    <p>I'm looking for a...</p>
+                    <img src="paw-light.png" alt="paw print" id="select-icon"><select name="pet type" id="pet-type" onchange="choice(this)">
+                        <option>Any Pet</option>
+                        <option value="You are looking for a: Cat">Cat</option>
+                        <option value="You are looking for a: Dog">Dog</option>
+                    </select>
+                </div>
+                <div class="find-opt">
+                    <p>in or near...</p>
+                    <img src="pin-light.png" alt="location pin" id="select-icon"><input type="text" name="zip-code" placeholder="City or Zip Code">
+                </div>
+                <div class="find-opt"><button id="find-btn">Find Your New Best Friend</button>
+                </div>    
+            </div>
+        </div>
+        <div class="content">
+            <div class="pet-card">
+                <div class="card-content-left">
+                    <div class="card-content">
+                        <img src="pepper.jpg" alt="pepper the cat" class="pet-img">
+                    </div>
+                    <div class="card-content-text">
+                        <h1>Pepper</h1><br>
+                        <p>Pepper is a slightly shy gray tabby, but she really loves showing her human affection.</p>
+                    </div>
+                </div>    
+                <div class="card-content-right">
+                    <p><span id="pepper-pets">3</span> petting(s)</p><br>
+                    <button class="pet-btn" onclick="pet(0)">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="pet-card">
+                <div class="card-content-left">
+                    <div class="card-content">
+                        <img src="bruce.jpg" alt="bruce the dog" class="pet-img">
+                    </div>
+                    <div class="card-content-text">
+                        <h1>Bruce</h1><br>
+                        <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                    </div>
+                </div>    
+                <div class="card-content-right">
+                    <p><span id="bruce-pets">5</span> petting(s)</p><br>
+                    <button class="pet-btn" onclick="pet(1)">Pet Bruce</button>
+                </div>
+            </div>
+            <div class="pet-card">
+                <div class="card-content-left">
+                    <div class="card-content">
+                        <img src="oscar.jpg" alt="oscar the dog" class="pet-img">
+                    </div>
+                    <div class="card-content-text">
+                        <h1>Oscar</h1><br>
+                        <p>Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+                    </div>
+                </div>    
+                <div class="card-content-right">
+                    <p><span id="oscar-pets">8</span> petting(s)</p><br>
+                    <button class="pet-btn" onclick="pet(2)">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

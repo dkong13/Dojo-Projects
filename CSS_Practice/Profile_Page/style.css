@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(32, 3, 3, 0.753);
+    color: ivory;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navli {
+    display: inline-block;
+    padding: 5px;
+}
+
+#title {
+    padding-right: 15px;
+}
+
+#btn {
+    background-color: pink;
+    color: rgb(29, 29, 14);
+    font-weight: bold;
+    box-shadow: 3px 2px 5px rgb(128, 126, 126);
+    padding: 2px;
+    border-radius: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-content {
+    width: 70%;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 15px;
+}
+
+.left-col {
+    flex: 2;
+}
+
+.right-col {
+    flex: 1;
+}
+
+.user {
+    border: lightgray solid 4px;
+    margin: 0px 10px 10px 10px;
+}
+
+.userbar {
+    background-color: rgb(185, 163, 35);
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+#user-pic {
+    width: 70px;
+    padding-left: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px
+}
+
+.educationbar {
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.education {
+    border: lightgray solid 4px;
+    margin: 0px 10px 10px 10px;
+}
+
+.requestbar {
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.requests {
+    border: lightgray solid 4px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+
+.connectionsbar {
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.connections {
+    border: lightgray solid 4px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.view-connections {
+    border: lightgray solid 4px;
+    border-top: none;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+h4 {
+    background-color: darkslategray;
+    color: ivory;
+}
+
+h2 {
+    padding: 20px 10px 10px 10px;
+}
+
+#small-icon {
+    width: 15px;
+}
+
+#med-icon {
+    width: 30px;
+    padding: 4px;
+}
+
+p, h3, h5, h4 {
+    padding: 10px;
+}
+
+#numbers {
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 60%;
+    background-color: darkgray;
+    color: ivory;
+    display: inline-block;
+    padding: 4px;
+}
+
+#otherpic {
+    width: 50px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header"><h1>Network</h1></div>
+        <div class="content">
+            <div class="left-col">
+                <div class="profile-box">
+                    <img src="James-Brown.jpg" id="profile-pic" alt="James Brown"><br><a href="" id="change-opt">Change Profile Picture</a><h2>James Brown</h2>
+                </div>
+            </div>
+            <div class="right-col">
+                <h2 id="feed-title">Your Feed</h2>
+                <div class="user-box">
+                    <div class="user-head">
+                        <h2>David Bowie</h2><span class="likes-section"><span id="like-number-Bowie">0</span>likes <button class="like-btn" onclick="addLikeBowie()">Like</button></span>
+                    </div>
+                    <div class="user-content"><p>I'm an alligator;
+                        I'm a mama-papa comin' for you;
+                        I'm the space invader;
+                        I'll be a rock 'n' rollin' bitch for you</p>
+                    </div>
+                </div>
+                <div class="user-box">
+                    <div class="user-head">
+                        <h2>Billy Idol</h2><span class="likes-section"><span id="like-number-Billy">0</span>likes <button class="like-btn" onclick="addLikeBilly()">Like</button></span>
+                    </div>
+                    <div class="user-content"><p>When there's nothing to lose and there's nothing to prove;
+                        Well I'm dancing with myself</p>
+                    </div>
+                </div>
+                <div class="user-box">
+                    <div class="user-head">
+                        <h2>Weezer</h2><span class="likes-section"><span id="like-number-Weezer">0</span>likes <button class="like-btn" onclick="addLikeWeezer()">Like</button></span>
+                    </div>
+                    <div class="user-content"><p>I look just like Buddy Holly;
+                        Oh oh, and you're Mary Tyler Moore;
+                        I don't care what they say about us anyway;
+                        I don't care 'bout that</p>
+                    </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

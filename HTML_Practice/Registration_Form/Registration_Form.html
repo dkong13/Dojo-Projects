@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Register Here!!!</h1>
+    <h2>Please fill out the following details:</h2>
+    <form action="/process" method="post">
+        <div>
+            <label>Title:</label>
+            <select name="title">
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Ms.</option>
+                <option>Dr.</option>
+                <option>Hon.</option>
+                <option></option>
+            </select>
+        </div>
+        <div>
+            <label>*First Name: </label>
+            <input type="text" name="first_name" placeholder="Poopy">
+        </div>
+        <div>
+            <label>*Last Name: </label>
+            <input type="text" name="last_name" placeholder="Butthole">
+        </div>
+        <div>
+            <label>*Email Address: </label>
+            <input type="text" name="email_address" placeholder="poop_hole@ricknmorty.org">
+        </div>
+        <div>
+            <label>*Password: </label>
+            <input type="password" name="password">
+            <label>*Confirm Password: </label>
+            <input type="password" name="confirm_password">
+        </div>
+        <div>
+            <label>*Date of Birth:</label>
+            <input type="date" name="date_of_birth" placeholder="04/20/1969">
+        </div>
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male<label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female<label>
+            <input type="radio" name="gender" value="non-binary" id="non-binary">
+            <label for="non-binary">Non-binary<label>
+            <input type="radio" name="gender" value="prefer_not" id="prefer_not">
+            <label for="prefer_not">Prefer not to answer<label>
+        </div>
+        <div>
+            <label>A few things I like and dislike:</label>
+        </div>
+        <div>
+            <textarea name="likes_dislikes" cols="40" rows="6"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language: </label>
+            <select name="favorite_language">
+                <option></option>
+                <option>English</option>
+                <option>Spanish</option>
+                <option>Russian</option>
+                <option>JavaScript</option>
+                <option>Java</option>
+                <option>Python</option>
+                <option>Klingon</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="accept_all" id="accept_all">
+            <label for="accept_all">Sign me up <strong>and</strong> spam my email<label>
+        </div>
+        <div>
+            <input type="checkbox" name="accept_part" id="accept_part">
+            <label for="accept_part">Don't spam me, but sign me up!<label>
+        </div>
+        <div>
+            <input type="submit" value="Register!">
+        </div>
+    </form>
+    <h6>*Complete this section or perish...</h6>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.user-box {
+    border: black solid 4px;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+}
+
+.user-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like-btn {
+    background-color: gold;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin-left: 15px;
+    box-shadow: darkgray 3px 3px 3px;
+}
+
+#like-number-Bowie {
+    margin: auto 5px;
+}
+
+#like-number-Billy {
+    margin: auto 5px;
+}
+
+#like-number-Weezer {
+    margin: auto 5px;
+}
+
+.profile-box {
+    border: black solid 4px;
+    padding: 10px;
+    width: 150px;
+    margin: 67px 10px;
+    text-align: center;
+}
+
+#profile-pic {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: darkslategray;
+    color: ivory;
+    padding: 10px 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#feed-title {
+    padding-left: 15px;
+}
+
+#change-opt {
+    text-align: center;
+    font-size: small;
+}
